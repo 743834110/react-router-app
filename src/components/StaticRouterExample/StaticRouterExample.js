@@ -42,6 +42,7 @@ const PrintContext = props => (
   <p>Static context: {JSON.stringify(props.staticContext)}</p>
 );
 
+// 可用于服务端的渲染
 class StaticRouterExample extends React.Component {
   // This is the context object that we pass to the StaticRouter.
   // It can be modified by routes to provide additional information

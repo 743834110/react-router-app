@@ -1,19 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import BaseExample from './components/BaseExample/BaseExample'
-import ParamsExample from './components/ParamsExample/ParamsExample'
-import AuthExample from './components/AuthExample/AuthExample'
-import CustomExample from './components/CustomExample/CustomExample'
-import PreventingTransitionsExample from './components/PreventingTransitionsExample/PreventingTransitionsExample'
-import NoMatchExample from './components/NoMatchExample/NoMatchExample'
-import RecursiveExample from './components/RecursiveExample/RecusiveExample'
-import SideBarExample from './components/SideBarExample/SidebarExample'
+// import BaseExample from './components/BaseExample/BaseExample'
+// import ParamsExample from './components/ParamsExample/ParamsExample'
+// import AuthExample from './components/AuthExample/AuthExample'
+// import CustomExample from './components/CustomExample/CustomExample'
+// import PreventingTransitionsExample from './components/PreventingTransitionsExample/PreventingTransitionsExample'
+// import NoMatchExample from './components/NoMatchExample/NoMatchExample'
+// import RecursiveExample from './components/RecursiveExample/RecusiveExample'
+// import SideBarExample from './components/SideBarExample/SidebarExample'
+// import StaticRouterExample from './components/StaticRouterExample/StaticRouterExample'
+// import AnimationExample from './components/AnimationExample/AnimationExample'
+// import AmbiguousExample from './components/AmbiguousExample/AmbiguousExample'
+import {ModalGallery} from  './components/ModalGallery/ModalGallery'
 import * as serviceWorker from './serviceWorker';
-import 'antd/dist/antd.css';
 
 ReactDOM.render(
-    <SideBarExample/>,
+    <ModalGallery/>,
     document.getElementById('root')
 );
 
